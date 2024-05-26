@@ -17,11 +17,9 @@ Each connection (gray arrows) concatenates the equivalent images in upscaling an
 
 Considering the following metric:
 
-$$
-\frac{\text{pixels\_predicted\_correctly}}{\text{total\_pixels}}
-$$
+$$ \frac{correctly\ predicted\ pixels}{total\ pixels} $$
 
-The best accuracy that I've managed to get is **73%** after experimenting with multiple combinations of hyperparameters (located at **hp.toml**). The resulting images from this project (expected mask and predicted output) can be seen at **saved_images** folder.
+The best accuracy that I've managed to get is **73%** after experimenting with multiple combinations of hyperparameters (located at **hp.toml**). The resulting images from this project (expected mask and predicted output) can be seen at **saved_images** folder. The resulting model often outputs the contour of the flooded areas, rather than a filled mask of it. Although the final result isn't too much accurate, this project certainly helped me with understanding how to read and implement Deep Learning papers and improved my Pytorch skills.
 
 ## References:
 
