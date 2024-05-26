@@ -1,0 +1,15 @@
+# Hyperparameters for model training
+# DEVICE must be coded in train.ipynb
+
+LEARNING_RATE = 1e-5
+BATCH_SIZE = 1
+NUM_EPOCHS = 5
+NUM_WORKERS = 2
+IMAGE_HEIGHT = 512
+IMAGE_WIDTH = 512
+PIN_MEMORY = true
+LOAD_MODEL = false
+TRAIN_IMG_DIR = "floodDataset/train_images"
+TRAIN_MASK_DIR = "floodDataset/train_masks"
+VAL_IMG_DIR = "floodDataset/val_images"
+VAL_MASK_DIR = "floodDataset/val_masks"
